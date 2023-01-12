@@ -5,7 +5,7 @@
 
 var fs = require('fs');
 var request = require('needle');
-var crypto = rxequire('crypto');
+var crypto = require('crypto');
 var Promise = require('bluebird');
 
 // (1) Asyncronous HTTP request
